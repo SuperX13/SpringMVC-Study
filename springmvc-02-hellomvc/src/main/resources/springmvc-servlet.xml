@@ -19,5 +19,5 @@
     </bean>
 
     <!--Handler-->
-    <bean id="/hello" class="com.yyx.controller.HelloController"/>
+    <bean id="/hello" class="com.yyx.controller.controller.HelloController"/>
 </beans>

@@ -7,7 +7,7 @@
        http://www.springframework.org/schema/beans/spring-beans.xsd http://www.springframework.org/schema/context https://www.springframework.org/schema/context/spring-context.xsd http://www.springframework.org/schema/mvc https://www.springframework.org/schema/mvc/spring-mvc.xsd">
 
     <!--自动扫描包，让包下的注解生效，由IOC容器统一管理-->
-    <context:component-scan base-package="com.yyx.controller"/>
+    <context:component-scan base-package="com.yyx.controller.controller"/>
     <!--让springmvc不处理静态资源-->
     <mvc:default-servlet-handler/>
     <mvc:annotation-driven/>
